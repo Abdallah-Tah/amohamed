@@ -6,6 +6,7 @@ class Atmsoap
 {
     public static function dump()
     {
-        dd('soap');
+        $date = \Carbon\Carbon::now();
+        return $date->toDateTimeString();
     }
 }
