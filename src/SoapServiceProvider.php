@@ -1,6 +1,6 @@
 <?php
 
-namespace Atm\Abdal;
+namespace Atma\Abdal;
 
 use Atm\Abdal\Services\Amsoap;
 use Illuminate\Support\ServiceProvider;

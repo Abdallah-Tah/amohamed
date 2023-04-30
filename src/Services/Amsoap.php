@@ -1,6 +1,6 @@
 <?php
 
-namespace Atm\Abdal\Facades;
+namespace Atma\Abdal\Facades;
 
 class Amsoap
 {
