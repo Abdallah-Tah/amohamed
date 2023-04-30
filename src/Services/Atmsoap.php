@@ -2,7 +2,7 @@
 
 namespace Atma\Abdal\Facades;
 
-class Amsoap
+class Atmsoap
 {
     public static function dump()
     {

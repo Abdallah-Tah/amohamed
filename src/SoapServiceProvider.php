@@ -2,7 +2,7 @@
 
 namespace Atma\Abdal;
 
-use Atm\Abdal\Services\Amsoap;
+use Atma\Abdal\Facades\Atmsoap;
 use Illuminate\Support\ServiceProvider;
 
 class SoapServiceProvider extends ServiceProvider
@@ -14,7 +14,7 @@ class SoapServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('amsoap', function () {
-            return new Amsoap();
+            return new Atmsoap();
         });
     }
 }

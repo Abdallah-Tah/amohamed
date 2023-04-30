@@ -8,6 +8,6 @@ class SoapFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'amsoap';
+        return 'atmsoap';
     }
 }
