@@ -1,0 +1,22 @@
+{
+    "name": "atm/abdal",
+    "description": "This is a sample package used for facade tuto.",
+    "type": "library",
+    "require": {
+        "php": ">=5.6",
+        "illuminate/support": ">=5.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Atm\\Abdal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdallah Mohamed",
+            "email": "abdallah.mohamed@kyocera-avx.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
